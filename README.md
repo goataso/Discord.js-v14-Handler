@@ -56,6 +56,11 @@
 ```bash
 npm install discord.js @discordjs/rest discord-api-types ascii-table humanize-duration
 ```
+# global installing
+
+```bash
+npm i -g discord.js-v14-handler
+```
 
 If you are using [Replit](https://replit.com/), add the following secrets to the environment variables tab (lock icon in sidebar):
 
@@ -114,10 +119,22 @@ module.exports = {
   }
 }
 ```
+# Installation & Setup
 
+Install the package globally:
+```bash
+npm install -g discord.js-v14-handler
+```
+
+Initialize the handler:
+```bash
+djs-handler build ./
+```
+
+This will create the necessary folder structure and configuration files for your Discord bot.
 ## Contact && Support
 
-Discord: `amtix`, `morgan.so`
+Discord: `amtix`, `morgan.so`, `vueos`
 
 For any issues or inquiries, feel free to reach out on our Discord server:
 
